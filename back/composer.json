@@ -7,10 +7,10 @@
         }
     },
     "require": {
-        "vendor/altorouter/altorouter": "^2.0",
-        "vendor/vlucas/phpdotenv": "^5.5"
+        "altorouter/altorouter": "^2.0",
+        "vlucas/phpdotenv": "^5.5"
     },
     "require-dev": {
-        "vendor/phpstan/phpstan": "^1.9"
+        "phpstan/phpstan": "^1.9"
     }
 }
