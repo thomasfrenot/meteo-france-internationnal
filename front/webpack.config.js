@@ -1,6 +1,5 @@
 const webpack = require("webpack");
 const path = require("path");
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 let config = {
@@ -29,15 +28,14 @@ let config = {
             }
         ]
     },
+    devServer: {
+        static: {
+            directory: path.join(__dirname, 'dist'),
+        },
+        compress: true,
+        port: 8080,
+    },
     plugins: [
-        new BrowserSyncPlugin({
-            host: 'localhost',
-            port: 3000,
-            server: {
-                baseDir: ['dist']
-            },
-            reload: false
-        }),
         new HtmlWebpackPlugin({
             template: './src/index.html'
         })

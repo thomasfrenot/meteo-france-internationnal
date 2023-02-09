@@ -6,17 +6,14 @@
   "scripts": {
     "start": "webpack --watch && npm run dev",
     "dev": "webpack-dev-server --progress --colors",
-    "build": "webpack build",
+    "build": "webpack build && webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.27.11",
-    "browser-sync-webpack-plugin": "^2.3.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
-    "http-server": "^14.1.1",
     "sass": "^1.58.0",
     "sass-loader": "^13.2.0",
     "webpack": "^5.75.0",
