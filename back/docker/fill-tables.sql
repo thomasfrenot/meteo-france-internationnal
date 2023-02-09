@@ -1,0 +1,16 @@
+INSERT INTO peak (lat, lon, altitude, name) VALUES (45.83250, 6.86444, 4808, 'MONT BLANC');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (46.53722, 8.12611, 4274, 'FINSTERAARHORN');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (46.38222, 9.90805, 4049, 'PIZ BERNINA');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (45.93694, 7.86694, 4634, 'MONTE ROSA (DUFOURSPITZE)');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (45.51805, 7.26722, 4061, 'GRAN PARADISO');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (45.93750, 7.29916, 4314, 'GRAND COMBIN (DE GRAFENEIRE)');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (46.10138, 7.71583, 4506, 'WEISSHORN');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (46.12777, 8.01222, 4023, 'WEISSMIES');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (46.09388, 7.85888, 4545, 'DOM');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (46.46500, 7.99388, 4195, 'ALETSCHHORN');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (46.03416, 7.61194, 4357, 'DENT BLANCHE');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (45.86916, 6.98833, 4208, 'GRANDES JORASSES (POINTE WALKER)');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (46.59000, 8.11805, 4078, 'GROSSES SCHRECKHORN');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (45.97000, 7.60527, 4171, 'DENT D''HÉRENS');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (46.53666, 7.96250, 4158, 'JUNGFRAU');
+INSERT INTO peak (lat, lon, altitude, name) VALUES (46.02333, 7.88416, 4199, 'RIMPFISCHHORN');
