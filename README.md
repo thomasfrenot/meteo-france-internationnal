@@ -28,7 +28,8 @@ Pré-requis pour le projet avoir docker, composer, node et npm d'installer sur l
 
 cloner le projet sur votre local : `git clone git@github.com:thomasfrenot/meteo-france-internationnal.git`
 
-###Back office
+### Back office
+
 se rendre dans le répertoire /back et lancer la commande `composer install` 
 puis `docker-compose up -d` pour lancer les containers NGINX / PostgreSQL et PHP
 A présent vous pouvez utiliser l'api via postman par exemple.
@@ -53,7 +54,8 @@ Endpoints :
     - name *(string)*
 - DELETE `/delete/{id}` : supprime le sommet donné
 
-###Front office
+### Front office
+
 se rendre dans le répertoire /front et lancer la commande `npm install`
 puis `npm run build`
 
